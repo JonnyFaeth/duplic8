@@ -1,35 +1,40 @@
 # Duplic8 roadmap
 
-Status: proposed, unscheduled. An unchecked item is not an implemented feature.
+Current stage: a private interface prototype exists. This repository remains documentation-only. The items below are proposed and not completed research or production functionality.
 
-## 1. Define the first use case
+## 1. Validate the prototype
 
-- [ ] Choose one audience and one repeated profile-sharing problem.
-- [ ] Document the information that should and should not travel between contexts.
-- [ ] Write a fictional end-to-end scenario and explicit non-goals.
+- [ ] Inventory implemented, simulated, and inactive interactions.
+- [ ] Label simulated outcomes and unsupported assurances clearly.
+- [ ] Establish reproducible build and meaningful interaction checks.
 
-Completion criterion: one reviewed scenario with a bounded scope and observable success criteria.
+Done when: the documented behavior matches a verified walkthrough, including limitations.
 
-## 2. Design the sharing experience
+## 2. Establish consent behavior
 
-- [ ] Sketch profile creation, review, and selective export.
-- [ ] Show how user-provided and inferred information would be distinguished.
-- [ ] Explain exported-copy limitations in plain language.
+- [ ] Define recipient, purpose, permitted fields, duration, and permission changes.
+- [ ] Separate supplied facts from inferred information.
+- [ ] Verify permission persistence and enforcement before using real identity data.
+- [ ] Explain the limits of withdrawing previously shared copies.
 
-Completion criterion: a clickable or documented walkthrough that a reader can follow without hidden assumptions.
+Done when: checks demonstrate that information handling follows the defined permission record.
 
-## 3. Build a limited demonstration
+## 3. Run the proposed consent evaluation
 
-- [ ] Implement a local demonstration using synthetic data only.
-- [ ] Demonstrate editing, selecting, and exporting a small profile.
-- [ ] Document supported behavior and failure cases.
+Target duration: four weeks from receipt of research credits, subject to calibration. Funding is not confirmed.
 
-Completion criterion: reproducible run instructions and a demonstrated export with no real personal data.
+- [ ] Week 1: finalize rubrics, calibrate cost and manual review workload, review fictional scenarios, and freeze the protocol.
+- [ ] Week 2: compare two models and three consent-handling approaches.
+- [ ] Week 3: audit scoring, analyze results, and run targeted replication.
+- [ ] Week 4: publish methods, reviewed synthetic materials, code, and limitations.
 
-## 4. Evaluate before expanding
+Planned scale: 200 evaluation scenarios, two models, three conditions, and five repetitions. Use separate development scenarios. Reduce evaluation volume before protocol freeze if manual review cannot support it. Measure useful task completion alongside unauthorized disclosure.
 
-- [ ] Test whether participants understand what will be shared.
-- [ ] Review data handling and threat assumptions before using real records.
-- [ ] Decide whether an integration is justified by evidence from the first use case.
+Human comprehension testing is an optional extension contingent on recruitment and applicable ethics requirements. Synthetic results will not be presented as evidence of human understanding.
 
-Completion criterion: an evaluation summary, known limitations, and an explicit next-scope decision.
+## 4. Expand based on evidence
+
+- [ ] Address observed failures and review the next integration scope.
+- [ ] Complete privacy, data-handling, and runtime verification before a real-data pilot.
+
+Done when: the next milestone is supported by recorded findings and explicit limitations.
