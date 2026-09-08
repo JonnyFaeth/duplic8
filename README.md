@@ -2,54 +2,53 @@
 
 **Portable digital identity and digital-self infrastructure.**
 
-Duplic8 explores a simple question: how can a person's digital identity remain useful across different tools and environments while staying under their control?
-
-Today, people repeatedly recreate profiles, preferences, and context across disconnected services. Duplic8's proposed direction is a portable digital self: a representation people can understand, manage, and choose to share.
+Duplic8 explores how a person can understand, manage, and choose what to share about their digital self across different contexts.
 
 ## Status
 
-**Concept / discovery.** This repository documents the project vision and proposed milestones. It contains no working application, deployed service, or verified integrations. Features below are design goals, not shipped capabilities.
+**Early interface prototype; consent research proposed.** A private interactive prototype exists. This public repository contains project documentation, not the application source or a runnable release.
 
-## Proposed experience
+Prototype interactions and simulated outcomes do not establish production-ready identity verification, enforceable permissions, portability, or real integrations. A targeted source review informed this status update; a full runtime and security assessment remains outstanding.
 
-1. Define a digital profile using information the user chooses to provide.
-2. Review which parts of that profile are appropriate for a particular context.
-3. Share a limited representation with a chosen destination.
-4. Update the profile and understand the limits of changing information already shared.
+## Product direction
 
-For example, a fictional user might keep a general communication preference separate from a work-specific introduction, then choose which to include in an export.
+1. Define a digital representation using information the user chooses to provide.
+2. Review which information is appropriate for a particular recipient and purpose.
+3. Make sharing choices explicit and understandable.
+4. Explain corrections, permission changes, and the limits of withdrawing previously shared copies.
+
+These are product goals, not claims that every capability is implemented.
 
 ## Design principles
 
-- **User control:** make selection and sharing deliberate and understandable.
-- **Portability:** explore documented formats without promising universal compatibility.
-- **Minimal disclosure:** share only what a particular interaction needs.
-- **Clear boundaries:** distinguish a person's stated information from inferred or generated content.
-- **Honest limitations:** explain what happens to exported copies and what cannot be recalled.
+- User control over information selection and sharing.
+- Minimal disclosure for a defined purpose.
+- Clear separation of supplied facts and generated inferences.
+- Honest descriptions of limitations and uncertainty.
 
-These are intended product principles; they are not claims about implemented security controls.
+## Research direction
+
+A proposed study will compare natural-language consent instructions, structured permissions, and restricted model inputs using fictional identities. It will examine unauthorized disclosure alongside useful task completion. The planned core study spans four weeks from receipt of research credits, subject to workload calibration. No funding award, completed evaluation, or validated result is claimed.
 
 ## Explore the repository
 
 | Location | Purpose |
 | --- | --- |
-| [Project brief](docs/project-brief.md) | Problem, audience hypothesis, scope, and open questions |
-| [Roadmap](ROADMAP.md) | Proposed milestones and completion criteria |
-| [Publication boundaries](docs/publication-boundaries.md) | Visibility recommendation and omitted material |
-| [Designs](designs/README.md) | Planned public interaction studies |
-| [Research](research/README.md) | Research questions and evidence standards |
-| [Prototypes](prototypes/README.md) | Scope for a future synthetic-data demonstration |
+| [Project brief](docs/project-brief.md) | Problem, audience hypothesis, and proposed scope |
+| [Roadmap](ROADMAP.md) | Next implementation and research milestones |
+| [Publication boundaries](docs/publication-boundaries.md) | What stays public and what stays private |
+| [Designs](designs/README.md) | Public design-material scope |
+| [Research](research/README.md) | Proposed consent evaluation |
+| [Prototypes](prototypes/README.md) | Prototype status and verification boundaries |
 
 ## Getting started
 
-Start with the project brief and roadmap. There is nothing to install or run yet. The first proposed prototype is a small profile-and-export walkthrough using fictional data.
+Read the project brief and roadmap. There is no public application package to install from this repository. Reviewed synthetic research materials may be added as the study progresses.
 
 ## Feedback
 
-Useful feedback includes concrete portability problems, confusing sharing decisions, and suggestions for a narrow first use case. Keep feedback free of credentials, personal identity records, confidential business information, and proprietary implementation details.
+Useful feedback includes concrete portability problems, confusing sharing decisions, and ways to evaluate consent understanding. Do not post credentials, identity records, confidential business information, or proprietary implementation details.
 
-## Publication and licensing
+## Visibility and licensing
 
-Recommended visibility: **public for this concept-only repository**, with proprietary engineering work maintained separately in a private repository. See the publication boundaries for details.
-
-No open-source license is included. A license decision is deferred until the owner chooses what rights to grant.
+This repository is a public showcase. Implementation and sensitive project material remain private. A folder name or ignore rule does not make committed information private. No open-source license has been selected.
