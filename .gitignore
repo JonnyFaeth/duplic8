@@ -1,0 +1,21 @@
+# Local secrets and private material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+private/
+internal/
+*.log
+
+# Local tooling and generated files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+dist/
+build/
+__pycache__/
+.venv/
